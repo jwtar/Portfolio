@@ -50,6 +50,10 @@
   text-align: center;
 }
 
+.nav-item {
+  color: black;
+}
+
 .cir-nav-item {
   padding: 0px;
   margin: 0px;
