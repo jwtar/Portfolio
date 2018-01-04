@@ -3,24 +3,6 @@
   font-size: 200px;
 }
 
-.header {
-  width: 100%;
-  height: 200px;
-  background-color: #FF5757;
-}
-
-.go-back {
-  background-color: #FF5757;
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-}
-
-.title {
-  padding-top: 40px;
-  font-size: 100px;
-}
-
 .navbar {
   position: absolute;
   bottom: 0px;
@@ -114,12 +96,15 @@
 
 @keyframes float {
   0% {
-    transform: translatey(0px);
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(0px, 5px);
   }
   50% {
-    transform: translatey(-10px);
+    transform: translate(0px, -5px);
   }
   100% {
-    transform: translatey(0px);
+    transform: translate(0px, 0px);
   }
 }
